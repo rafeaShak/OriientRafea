@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="v2G-fu-HXh" customClass="MarkerInfoView" customModule="OriientApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="106"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="134" translatesAutoresizingMaskIntoConstraints="NO" id="lW0-Qc-2oo">
+                    <rect key="frame" x="8" y="0.0" width="134" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="w95-9F-4WT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="134" translatesAutoresizingMaskIntoConstraints="NO" id="UMC-nm-zVW">
+                    <rect key="frame" x="0.0" y="38" width="150" height="68"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="eK9-Be-Paa"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="lW0-Qc-2oo" firstAttribute="leading" secondItem="v2G-fu-HXh" secondAttribute="leading" constant="8" id="9Bu-SR-CXR"/>
+                <constraint firstAttribute="trailing" secondItem="lW0-Qc-2oo" secondAttribute="trailing" constant="8" id="Esc-ya-P4d"/>
+                <constraint firstItem="lW0-Qc-2oo" firstAttribute="top" secondItem="v2G-fu-HXh" secondAttribute="top" id="KJc-6N-Rh8"/>
+                <constraint firstAttribute="bottom" secondItem="UMC-nm-zVW" secondAttribute="bottom" id="NzN-kh-UJb"/>
+                <constraint firstAttribute="trailing" secondItem="UMC-nm-zVW" secondAttribute="trailing" id="TEg-eS-5P1"/>
+                <constraint firstItem="UMC-nm-zVW" firstAttribute="top" secondItem="lW0-Qc-2oo" secondAttribute="bottom" id="gzK-VZ-7Va"/>
+                <constraint firstItem="UMC-nm-zVW" firstAttribute="leading" secondItem="v2G-fu-HXh" secondAttribute="leading" id="lew-dY-4KL"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="addressLabel" destination="UMC-nm-zVW" id="xig-dQ-atZ"/>
+                <outlet property="nameLabel" destination="lW0-Qc-2oo" id="ZUl-nE-x1e"/>
+            </connections>
+            <point key="canvasLocation" x="-110.14492753623189" y="-310.04464285714283"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

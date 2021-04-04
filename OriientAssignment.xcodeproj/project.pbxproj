@@ -3,18 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0718BB4E261985B600023852 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718BB4D261985B600023852 /* AppDelegate.swift */; };
 		0718BB50261985B600023852 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718BB4F261985B600023852 /* SceneDelegate.swift */; };
-		0718BB52261985B600023852 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718BB51261985B600023852 /* ViewController.swift */; };
 		0718BB55261985B600023852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0718BB53261985B600023852 /* Main.storyboard */; };
 		0718BB57261985B700023852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0718BB56261985B700023852 /* Assets.xcassets */; };
 		0718BB5A261985B700023852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0718BB58261985B700023852 /* LaunchScreen.storyboard */; };
 		0718BB65261985B700023852 /* OriientAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718BB64261985B700023852 /* OriientAssignmentTests.swift */; };
 		0718BB70261985B700023852 /* OriientAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718BB6F261985B700023852 /* OriientAssignmentUITests.swift */; };
+		0718BB922619865600023852 /* CustomGMSMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718BB8F2619865500023852 /* CustomGMSMarker.swift */; };
+		0718BB932619865600023852 /* CustomGMSNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718BB902619865600023852 /* CustomGMSNetworkProvider.swift */; };
+		0718BB942619865600023852 /* CustomGMSPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718BB912619865600023852 /* CustomGMSPlace.swift */; };
+		0718BB9B2619867100023852 /* MarkerInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0718BB992619867100023852 /* MarkerInfoView.xib */; };
+		0718BB9C2619867100023852 /* MarkerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718BB9A2619867100023852 /* MarkerInfoView.swift */; };
+		0718BBC526198C5100023852 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718BBC426198C5100023852 /* MapViewController.swift */; };
+		0718BBCD26198C9E00023852 /* MapViewController + Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718BBCC26198C9E00023852 /* MapViewController + Delegates.swift */; };
+		5E6C7777B640519CD6D6B295 /* Pods_OriientAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2A62C8529C0FAF338894A9 /* Pods_OriientAssignment.framework */; };
+		A4416784E7EE61C82D437E47 /* Pods_OriientAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7EEC162F9D05A35CAC3BAD6 /* Pods_OriientAssignmentTests.framework */; };
+		D9F85F3F7686C54F36AF5AA7 /* Pods_OriientAssignment_OriientAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEF8740797552307C823FCE /* Pods_OriientAssignment_OriientAssignmentUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +47,6 @@
 		0718BB4A261985B600023852 /* OriientAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OriientAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0718BB4D261985B600023852 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0718BB4F261985B600023852 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0718BB51261985B600023852 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0718BB54261985B600023852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0718BB56261985B700023852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0718BB59261985B700023852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,22 @@
 		0718BB6B261985B700023852 /* OriientAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OriientAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0718BB6F261985B700023852 /* OriientAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriientAssignmentUITests.swift; sourceTree = "<group>"; };
 		0718BB71261985B700023852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0718BB8F2619865500023852 /* CustomGMSMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomGMSMarker.swift; sourceTree = "<group>"; };
+		0718BB902619865600023852 /* CustomGMSNetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomGMSNetworkProvider.swift; sourceTree = "<group>"; };
+		0718BB912619865600023852 /* CustomGMSPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomGMSPlace.swift; sourceTree = "<group>"; };
+		0718BB992619867100023852 /* MarkerInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarkerInfoView.xib; sourceTree = "<group>"; };
+		0718BB9A2619867100023852 /* MarkerInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerInfoView.swift; sourceTree = "<group>"; };
+		0718BBC426198C5100023852 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0718BBCC26198C9E00023852 /* MapViewController + Delegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MapViewController + Delegates.swift"; sourceTree = "<group>"; };
+		10E5BC3A4939B9CECF310F54 /* Pods-OriientAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriientAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-OriientAssignmentTests/Pods-OriientAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		147744F9CB385B82341EE291 /* Pods-OriientAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriientAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-OriientAssignmentTests/Pods-OriientAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D5BA215E555BA9C7655620F /* Pods-OriientAssignment-OriientAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriientAssignment-OriientAssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-OriientAssignment-OriientAssignmentUITests/Pods-OriientAssignment-OriientAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4300BF1B0B958B3B03BB4E39 /* Pods-OriientAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriientAssignment.debug.xcconfig"; path = "Target Support Files/Pods-OriientAssignment/Pods-OriientAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		6B2A62C8529C0FAF338894A9 /* Pods_OriientAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OriientAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		841C7AC2D0A973C8B90A62F4 /* Pods-OriientAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriientAssignment.release.xcconfig"; path = "Target Support Files/Pods-OriientAssignment/Pods-OriientAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		CE2545CB4C796C09D3E4489D /* Pods-OriientAssignment-OriientAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriientAssignment-OriientAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-OriientAssignment-OriientAssignmentUITests/Pods-OriientAssignment-OriientAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDEF8740797552307C823FCE /* Pods_OriientAssignment_OriientAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OriientAssignment_OriientAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7EEC162F9D05A35CAC3BAD6 /* Pods_OriientAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OriientAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E6C7777B640519CD6D6B295 /* Pods_OriientAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4416784E7EE61C82D437E47 /* Pods_OriientAssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F85F3F7686C54F36AF5AA7 /* Pods_OriientAssignment_OriientAssignmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +110,8 @@
 				0718BB63261985B700023852 /* OriientAssignmentTests */,
 				0718BB6E261985B700023852 /* OriientAssignmentUITests */,
 				0718BB4B261985B600023852 /* Products */,
+				C628D97561ED8B93BD294F33 /* Pods */,
+				A6ADF537C025BDDBEC1B1D97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +128,11 @@
 		0718BB4C261985B600023852 /* OriientAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				0718BB982619866300023852 /* View */,
+				0718BB8B2619862A00023852 /* Model */,
+				0718BB802619860500023852 /* Controller */,
 				0718BB4D261985B600023852 /* AppDelegate.swift */,
 				0718BB4F261985B600023852 /* SceneDelegate.swift */,
-				0718BB51261985B600023852 /* ViewController.swift */,
 				0718BB53261985B600023852 /* Main.storyboard */,
 				0718BB56261985B700023852 /* Assets.xcassets */,
 				0718BB58261985B700023852 /* LaunchScreen.storyboard */,
@@ -128,6 +159,57 @@
 			path = OriientAssignmentUITests;
 			sourceTree = "<group>";
 		};
+		0718BB802619860500023852 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0718BBCC26198C9E00023852 /* MapViewController + Delegates.swift */,
+				0718BBC426198C5100023852 /* MapViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0718BB8B2619862A00023852 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0718BB8F2619865500023852 /* CustomGMSMarker.swift */,
+				0718BB902619865600023852 /* CustomGMSNetworkProvider.swift */,
+				0718BB912619865600023852 /* CustomGMSPlace.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0718BB982619866300023852 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0718BB9A2619867100023852 /* MarkerInfoView.swift */,
+				0718BB992619867100023852 /* MarkerInfoView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6ADF537C025BDDBEC1B1D97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A62C8529C0FAF338894A9 /* Pods_OriientAssignment.framework */,
+				DDEF8740797552307C823FCE /* Pods_OriientAssignment_OriientAssignmentUITests.framework */,
+				F7EEC162F9D05A35CAC3BAD6 /* Pods_OriientAssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C628D97561ED8B93BD294F33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4300BF1B0B958B3B03BB4E39 /* Pods-OriientAssignment.debug.xcconfig */,
+				841C7AC2D0A973C8B90A62F4 /* Pods-OriientAssignment.release.xcconfig */,
+				CE2545CB4C796C09D3E4489D /* Pods-OriientAssignment-OriientAssignmentUITests.debug.xcconfig */,
+				3D5BA215E555BA9C7655620F /* Pods-OriientAssignment-OriientAssignmentUITests.release.xcconfig */,
+				10E5BC3A4939B9CECF310F54 /* Pods-OriientAssignmentTests.debug.xcconfig */,
+				147744F9CB385B82341EE291 /* Pods-OriientAssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0718BB74261985B700023852 /* Build configuration list for PBXNativeTarget "OriientAssignment" */;
 			buildPhases = (
+				136BC9DA595C0D07FD597354 /* [CP] Check Pods Manifest.lock */,
 				0718BB46261985B600023852 /* Sources */,
 				0718BB47261985B600023852 /* Frameworks */,
 				0718BB48261985B600023852 /* Resources */,
+				7CBF11B372411ACC143E91E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0718BB77261985B700023852 /* Build configuration list for PBXNativeTarget "OriientAssignmentTests" */;
 			buildPhases = (
+				4DAE645F927FFB5BB3FE033C /* [CP] Check Pods Manifest.lock */,
 				0718BB5C261985B700023852 /* Sources */,
 				0718BB5D261985B700023852 /* Frameworks */,
 				0718BB5E261985B700023852 /* Resources */,
@@ -170,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0718BB7A261985B700023852 /* Build configuration list for PBXNativeTarget "OriientAssignmentUITests" */;
 			buildPhases = (
+				2242E0B6CBFC3C03EDDD52DA /* [CP] Check Pods Manifest.lock */,
 				0718BB67261985B700023852 /* Sources */,
 				0718BB68261985B700023852 /* Frameworks */,
 				0718BB69261985B700023852 /* Resources */,
+				3E81DD69B806A8BECA42B135 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0718BB9B2619867100023852 /* MarkerInfoView.xib in Resources */,
 				0718BB5A261985B700023852 /* LaunchScreen.storyboard in Resources */,
 				0718BB57261985B700023852 /* Assets.xcassets in Resources */,
 				0718BB55261985B600023852 /* Main.storyboard in Resources */,
@@ -253,14 +341,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		136BC9DA595C0D07FD597354 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OriientAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2242E0B6CBFC3C03EDDD52DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OriientAssignment-OriientAssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E81DD69B806A8BECA42B135 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OriientAssignment-OriientAssignmentUITests/Pods-OriientAssignment-OriientAssignmentUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OriientAssignment-OriientAssignmentUITests/Pods-OriientAssignment-OriientAssignmentUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OriientAssignment-OriientAssignmentUITests/Pods-OriientAssignment-OriientAssignmentUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DAE645F927FFB5BB3FE033C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OriientAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CBF11B372411ACC143E91E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OriientAssignment/Pods-OriientAssignment-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OriientAssignment/Pods-OriientAssignment-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OriientAssignment/Pods-OriientAssignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0718BB46261985B600023852 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0718BB52261985B600023852 /* ViewController.swift in Sources */,
+				0718BB932619865600023852 /* CustomGMSNetworkProvider.swift in Sources */,
 				0718BB4E261985B600023852 /* AppDelegate.swift in Sources */,
 				0718BB50261985B600023852 /* SceneDelegate.swift in Sources */,
+				0718BB922619865600023852 /* CustomGMSMarker.swift in Sources */,
+				0718BBCD26198C9E00023852 /* MapViewController + Delegates.swift in Sources */,
+				0718BB942619865600023852 /* CustomGMSPlace.swift in Sources */,
+				0718BB9C2619867100023852 /* MarkerInfoView.swift in Sources */,
+				0718BBC526198C5100023852 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +629,7 @@
 		};
 		0718BB75261985B700023852 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4300BF1B0B958B3B03BB4E39 /* Pods-OriientAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +648,7 @@
 		};
 		0718BB76261985B700023852 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841C7AC2D0A973C8B90A62F4 /* Pods-OriientAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +667,7 @@
 		};
 		0718BB78261985B700023852 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E5BC3A4939B9CECF310F54 /* Pods-OriientAssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +689,7 @@
 		};
 		0718BB79261985B700023852 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147744F9CB385B82341EE291 /* Pods-OriientAssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +711,7 @@
 		};
 		0718BB7B261985B700023852 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2545CB4C796C09D3E4489D /* Pods-OriientAssignment-OriientAssignmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +731,7 @@
 		};
 		0718BB7C261985B700023852 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D5BA215E555BA9C7655620F /* Pods-OriientAssignment-OriientAssignmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
